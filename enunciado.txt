@@ -1,0 +1,13 @@
+a) criar uma matriz bidimensional de 10 colunas e 20 linhas. contendo numeros de 0 ate 5.
+b) As posicoes da matriz que contem numero igual as suas posicoes adjacentes, devem ser alteradas pelo numero 6 que significa cor preta.
+c) ordenar todos os dados da matriz de modo que todas as cores pretas estejam no fundo da matriz.
+
+26/08/2021 - dia de resolver o teste. tempo maximo (3hrs).
+Resolver ate onde puder. 
+
+As primeiras duas alineas levei 1hr e 30min a resolver. mas a ultima alinea levou-me 2 dias. Mas ja esta tudo resolvido.
+feeling good
+
+a) O(n^2) no tempo
+b) O(n^2) para encontrar posicoes adjacentes e pintar de preto. e mais O(n^2) para passar do array copiado ao array original. total O(n^4).
+c) O(n^3) para ordebar o array
