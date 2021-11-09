@@ -60,7 +60,7 @@ public class Rules {
                 indexLine = (byte) (i + 1);
                 for (byte k = indexLine; k < 20 ; k++){
                     if (Data.data[k][j] < Data.data[i][j]) {
-                        for_k= k;
+                        for_k = k;
                         swap(j,i,for_k);
                     }
                 }
