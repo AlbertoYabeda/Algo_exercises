@@ -1,12 +1,7 @@
+package Multidimensional_Array;
+
 public class Rules {
     public byte [][] dataCopy  = new byte[20][10];
-    byte [][] sortedData = new byte[20][10];
-
-    public void isQual(byte first_position, byte second_position) {
-        if (first_position == second_position) {
-            System.out.println("equals");
-        }
-    }
 
     public void paintArray() {
         for (byte indiceLinha = 0; indiceLinha < 20; indiceLinha++) {
@@ -54,7 +49,7 @@ public class Rules {
     }
 
     public void sortArray() {
-        byte indexLine=0, for_k=0;
+        byte indexLine, for_k;
         for (byte j = 0; j < 10; j++) {
             for (byte i = 0; i < 19; i++) {
                 indexLine = (byte) (i + 1);

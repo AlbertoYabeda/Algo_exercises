@@ -1,3 +1,5 @@
+package Multidimensional_Array;
+
 import static java.lang.Math.random;
 
 public class Data {
